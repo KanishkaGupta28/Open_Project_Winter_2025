@@ -95,16 +95,19 @@ This loss encourages accurate reconstruction of quantum states.
 
 ### 5.1 Fidelity
 
-Fidelity measures similarity between the true density matrix (ρ) and the reconstructed density matrix (σ).
+Fidelity measures the similarity between the true density matrix (ρ) and the reconstructed density matrix (σ).
 
-Mathematically:
+Mathematically, the Uhlmann fidelity between two density matrices is defined as:
 
 F(ρ, σ) = ( Tr( √( √ρ σ √ρ ) ) )²
 
-Fidelity ranges between 0 and 1:
+Fidelity takes values in the range:
 
-- F = 1 → Perfect reconstruction
-- F close to 0 → Poor reconstruction
+0 ≤ F ≤ 1
+
+- F = 1 → Perfect reconstruction (identical states)
+- F = 0 → Orthogonal quantum states
+
 
 ---
 
@@ -238,6 +241,7 @@ Potential future work includes:
 
 [Kanishka Gupta]  
 Open Project – Winter 2025  
+
 
 
 
