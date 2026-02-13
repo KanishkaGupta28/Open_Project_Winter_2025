@@ -1,0 +1,6 @@
+{
+    "state": "|1>",
+    "circuit": "Single-qubit preparation of |1>",
+    "measurement_model": "Pauli-Z projective measurement",
+    "shots": 1000
+}
